@@ -5,6 +5,5 @@ export default makeStyles((theme)=>({
   homeTitleText:{
     textAlign: 'center',
     color: 'black',
-    fontFamily: 'cursive'
   }
 }));
