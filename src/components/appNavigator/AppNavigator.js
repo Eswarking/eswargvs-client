@@ -1,7 +1,4 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
+import React from 'react';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
@@ -16,26 +13,37 @@ export default function AppNavigator() {
 
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
-          <Avatar
-            alt="Eswar Bharadwaj"
-            src="/profile.jpg"
-            className = {classes.Avatar}
-            // sx={{ width: 56, height: 56 }}
-          />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Eswar Bharadwaj
-          </Typography>
+    <div className={classes.AppBar}>
+      <div className={classes.left}>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Eswar Bharadwaj GVS
+        </Typography>
+      </div>
+      <div className={classes.center}>
+        <Avatar
+          alt="Eswar Bharadwaj"
+          src="/profile.jpg"
+
+          sx={{ width: 100, height: 100 }}
+        />
+      </div>
+      <div className={classes.right}>
+        <nav>
           <Link to="/home" className={classes.NavLinks}>
             <Button color="inherit" >Home</Button>
           </Link>
           <Link to="/aboutMe" className={classes.NavLinks}>
             <Button color="inherit" >About Me</Button>
           </Link>
-        </Toolbar>
-      </AppBar>
-    </Box>
+          <Link to="/resume" className={classes.NavLinks}>
+            <Button color="inherit" >Resume</Button>
+          </Link>
+          <Link to="/works" className={classes.NavLinks}>
+            <Button color="inherit" >Works</Button>
+          </Link>
+        </nav>
+      </div>
+
+    </div>
   );
 }
