@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import { Link } from 'react-router-dom';
 import useStyles from './styles';
+import pdf from './../../assets/others/resume.pdf';
 
 
 
@@ -35,9 +36,12 @@ export default function AppNavigator() {
           <Link to="/aboutMe" className={classes.NavLinks}>
             <Button color="inherit" >About Me</Button>
           </Link>
-          <Link to="/resume" className={classes.NavLinks}>
-            <Button color="inherit" >Resume</Button>
-          </Link>
+          {/* <Link to="/resume" className={classes.NavLinks}> */}
+            
+            <a href={pdf} download="resume" className={classes.download}>
+              <Button color="inherit">Resume</Button>
+            </a>
+          {/* </Link> */}
           <Link to="/works" className={classes.NavLinks}>
             <Button color="inherit" >Works</Button>
           </Link>
