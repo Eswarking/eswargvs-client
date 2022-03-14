@@ -38,7 +38,7 @@ export default function AppNavigator() {
           </Link>
           {/* <Link to="/resume" className={classes.NavLinks}> */}
             
-            <a href={pdf} download="resume" className={classes.download}>
+            <a href={pdf} target="_blank" className={classes.download} rel="noreferrer">
               <Button color="inherit">Resume</Button>
             </a>
           {/* </Link> */}
