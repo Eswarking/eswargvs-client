@@ -10,6 +10,8 @@ export default function Home() {
     <div>
       <Typography variant="h3" component="h1" className={classes.homeTitleText} > Eswar Bharadwaj GVS </Typography>
       <Typography variant="body" component="h2" className={classes.homeTitleText} > Hello Web </Typography>
+      <Typography variant="body" component="h2" className={classes.homeTitleText} > First Post coming soon ..... </Typography>
+
 
     </div>
 

@@ -28,4 +28,8 @@ export default makeStyles((theme) => ({
     textDecoration: 'none',
     color: 'black',
   },
+  download:{
+    textDecoration: 'none',
+    color: 'black',
+  }
 }));
