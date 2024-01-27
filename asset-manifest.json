@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae117305.css",
-    "main.js": "/static/js/main.90ab0a0a.js",
-    "static/media/resume.pdf": "/static/media/resume.305d3274923c3996bc3e.pdf",
-    "index.html": "/index.html",
-    "main.ae117305.css.map": "/static/css/main.ae117305.css.map",
-    "main.90ab0a0a.js.map": "/static/js/main.90ab0a0a.js.map"
+    "main.css": "/eswargvs-client/static/css/main.ae117305.css",
+    "main.js": "/eswargvs-client/static/js/main.181fabe2.js",
+    "static/media/resume.pdf": "/eswargvs-client/static/media/resume.305d3274923c3996bc3e.pdf",
+    "index.html": "/eswargvs-client/index.html",
+    "main.ae117305.css.map": "/eswargvs-client/static/css/main.ae117305.css.map",
+    "main.181fabe2.js.map": "/eswargvs-client/static/js/main.181fabe2.js.map"
   },
   "entrypoints": [
     "static/css/main.ae117305.css",
-    "static/js/main.90ab0a0a.js"
+    "static/js/main.181fabe2.js"
   ]
 }
