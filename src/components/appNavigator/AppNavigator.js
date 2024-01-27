@@ -5,6 +5,7 @@ import Avatar from '@mui/material/Avatar';
 import { Link } from 'react-router-dom';
 import useStyles from './styles';
 import pdf from './../../assets/others/resume.pdf';
+import profilePic from './../../assets/profile.jpg';
 
 
 
@@ -23,7 +24,7 @@ export default function AppNavigator() {
       <div className={classes.center}>
         <Avatar
           alt="Eswar Bharadwaj"
-          src="/profile.jpg"
+          src={profilePic}
 
           sx={{ width: 100, height: 100 }}
         />
@@ -37,10 +38,10 @@ export default function AppNavigator() {
             <Button color="inherit" >About Me</Button>
           </Link>
           {/* <Link to="/resume" className={classes.NavLinks}> */}
-            
-            <a href={pdf} target="_blank" className={classes.download} rel="noreferrer">
-              <Button color="inherit">Resume</Button>
-            </a>
+
+          <a href={pdf} target="_blank" className={classes.download} rel="noreferrer">
+            <Button color="inherit">Resume</Button>
+          </a>
           {/* </Link> */}
           <Link to="/works" className={classes.NavLinks}>
             <Button color="inherit" >Works</Button>
