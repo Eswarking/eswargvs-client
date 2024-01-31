@@ -1,0 +1,49 @@
+Eswar Bharadwaj Gvs
+Web Developer
+Bengaluru
+gvseswar1995@gmail.com
+9550398091
+eswargvs.com
+PROFESSIONAL SUMMARY
+Passionate Web Developer who places high value on creativity and user-centered design. Experienced in developing responsive and user-friendly applications for delivering outstanding user experience. Specialized in utilizing the latest technologies and improving the performance of the applications. Capable of leading development teams and communicating complex technical ideas to stakeholders who are not technically inclined.
+
+EDUCATION
+VIT UNIVERSITY 
+Bachelor of Technology 
+Electronics and Communication Engineering—2014-2018 
+    • Secured 8.45 CGPA in academics.
+    • Grew passion in coding and problem solving, that made me pick software engineering.
+SKILLS
+Languages- 
+ Proficient->Javascript/Typescript, Intermediate-> Python, Beginner->Java
+Web Technologies- 
+ Proficient->Angular 2+, React JS, Node JS, HTML, CSS, Beginner->Flask, Webpack
+Database- 
+ Intermediate-> MongoDB, MySQL
+Others- 
+ Beginner-> Git, Docker, Rabbit MQ, 
+EXPERIENCE
+AMADEUS SOFTWARE LABS
+SOFTWARE DEVELOPMENT ENGINEER II – April 2022– PRESENT
+    • Worked on Change Review a change management tool, developed several key features in the tool, which granted users with a better user experience and many important functionalities. This increased the unique users from 300 to ~1000.
+    • Achieved a seamless transition of over 1800 users from an old tool to our tool by bridging the gaps.
+    • Integrated ORCA a job scheduling tool with Change Review using Messaging Queues and enabled users to reduce manual efforts in communicating between these two tools. 
+    • Migrated all our tool’s API from python 3.6 to 3.10
+    • Achieved a seamless cloud migration of our tool changereview.
+    • Worked on ticket templating solution which saved users around ~2500 hours
+    • Migrated the tool’s code base into a mono repo to align with the policies.
+    • Dependency management using renovate
+EMPROTO TECHNOLOGIES—ERGOS
+SOFTWARE ENGINEER – OCTOBER 2021 – April 2022
+    • Migrated an entire grainbank (provides storage and trading features for grains produced by farmers) website into an angular web application. Also developed additional features for creating filtered reports
+TATA CONSULTANCY SERVICES—CITI
+SYSTEM ENGINEER – JULY 2020 – OCTOBER 2021
+    • Monitoring and optimizing big data cluster performance, developing scripts for automating cluster optimizing techniques and generating reports on metrics of the cluster for a better handling of the cluster.
+ASSISTANT SYSTEM ENGINEER – JULY 2018 – JULY 2020
+    • Migrated user modules and offer modules of an existing banking website into an angular application.
+    • Designed and developed a seating application for the managers which allows the manager to allot seats in respective office floors.
+    • Developed a drag and drop user interface on top of an open source library, which enables users to place web components and generate respective angular code for the user.
+CRICKETADDA
+FREELANCER – JULY 2020 – FEBRUARY 2020
+Developed user interface for cricket score viewing web application based on ReactJS
+
