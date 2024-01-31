@@ -3,12 +3,12 @@ import './aboutMe.scss';
 
 export default function AboutMe() {
   const technologies = ["ReactJS", "Angular2+", "Javascript [NodeJS/Browser(V8)]", "HTML", "CSS", "SQL", "Java", "ExpressJS", "Python"];
-  const ratings = ["Proficient", "Proficient", "Proficient", "Intermediate", "Intermediate", "Intermediate", "Intermediate*", "Beginner", "Beginner"]
+  const ratings = ["Proficient", "Proficient", "Proficient", "Intermediate", "Intermediate", "Intermediate", "Intermediate*", "Beginner", "Intermediate"]
   return (
     <div>
       <Typography variant="h3" component="h3" className="title" > Full Stack Web Developer </Typography>
       <Typography variant="h5" component="p" className="title-para">
-        A passionate web developer with 3+ years of experience designing and developing web applications.
+        A passionate web developer with 5+ years of experience designing and developing web applications.
       </Typography>
       <br></br>
       <br></br>
